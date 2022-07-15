@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="440dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+        <ImageView
+            android:id="@+id/agentBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/agent_background"
+            android:src="@drawable/agent_bg"/>
+        <ImageView
+            android:id="@+id/agentImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/agent_image"
+            android:src="@drawable/agent_image"
+            android:padding="50dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/agentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/valorant"
+        android:text="@string/agent_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+</LinearLayout>

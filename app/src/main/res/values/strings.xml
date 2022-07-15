@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TUGAS7–AKB10–10119902</string>
+    <string name="valorant_agent">Valorant Agent</string>
+    <string name="agent_image">agent image</string>
+    <string name="background_inage">background inage</string>
+    <string name="agent_name">agent name</string>
+    <string name="agent_background">agent background</string>
+</resources>

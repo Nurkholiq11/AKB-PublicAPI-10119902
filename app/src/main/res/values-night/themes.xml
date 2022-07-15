@@ -1,0 +1,7 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TUGAS7AKB1010119902" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background</item>
+    </style>
+</resources>
